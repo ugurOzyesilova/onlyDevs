@@ -1,0 +1,111 @@
+.Post {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 80px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    border-radius: 3px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.Post__upper{
+    display: flex;
+    width: 600px;
+    justify-content:space-between;
+    padding: 10px;
+    align-items:center;
+    background-color: #efefef;
+}
+.Post__user__infos {
+    display: flex;
+    margin-left: 20px;
+    align-items:center;
+    width: 180px;
+    justify-content:space-around
+}
+
+.Post__username{
+    color: gray;
+    font-size:12px;
+    margin-right: 20px
+}
+
+.Post__time {
+    font-size:10px;
+    color: orange;
+    margin-right: 20px;
+}
+.Post__reply {
+    display: flex;
+    padding: 10px;   
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: rgb(255, 145, 0);
+    border: none;
+    outline: none;
+    width: 600px;
+    text-align: center;
+    border-radius: 0 0 3px 0 ;
+    cursor: pointer; 
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.Post__content{
+    font-size:12px;
+    color: gray !important;
+    font-weight: 300;
+    object-fit: contain;
+    
+}
+
+.Post__middle{
+    margin-left: 20px;
+    margin-right:20px;
+    max-width: 580px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.Post__comment{
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    padding-left: 40px;
+    color: orange;
+    outline: none;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0,0,0,0.23);
+    
+}
+
+.Post__comments {
+    display: flex;
+    align-items: center;
+    width: 600px;
+
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin-top: 20px;
+    border-radius: 3px;
+    font-size: 10px;
+    background-color: #efefef;
+    padding: 10px;
+    padding-left: 40px;
+    font-weight: 100;
+    color: gray
+}
+.comment__content{
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    padding: 10px;padding-left: 10px;
+    font-weight: 500;
+    margin-bottom: 1px;
+    color: orange;
+}
+
+

@@ -1,10 +1,29 @@
-import "./styles.css";
+import React from 'react'
+import './App.css'
+import Nav from './Nav'
+import Home from './Home'
+import Widget from './Widget'
+import Login from './Login'
+import { useStateValue } from './Context'
 
-export default function App() {
+
+
+function App() {
+
+  //const user = null;
+  const [{user}, send] = useStateValue();
+
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      {!user ? (<Login/>):(
+        <>
+          <Nav />
+          <Home />
+          <Widget />
+        </>
+      )}
     </div>
   );
 }
+
+export default App;

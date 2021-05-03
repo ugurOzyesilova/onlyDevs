@@ -1,0 +1,105 @@
+.postsender{
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 90px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 8px;
+    font-weight: 100;
+    border-radius: 3px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.postsender__infos{
+    display: flex;
+    width: 600px;
+    justify-content: space-around;  
+}
+
+.postsender__info {
+    height: 55px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    color:gray
+}
+
+.photo,.post,.update{
+    background-color: rgb(243, 186, 112);
+    padding: 8px;
+    margin-right: 12px ;
+    border-radius: 50%;
+    color: white;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+}
+.post{
+    
+    background-color: rgb(194, 144, 214);
+}
+
+.update{
+    background-color: rgb(134, 168, 223);
+}
+
+.post__content{
+    display: flex;
+    max-width:530px;
+    min-width: 530px;
+    min-height: 100px;
+    max-height: 100px;
+    border: none;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+}
+
+.postsender__link {
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+.postsender__icon{
+    display: flex;
+    margin-left: 30px;
+    width: 60px;
+    align-items: center;
+    justify-content: space-around;
+}
+.post__button{
+    display: flex;
+    padding: 10px;   
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: rgb(65, 79, 98);
+    border: none;
+    outline: none;
+    width: 87px;
+    text-align: center;
+    border-radius: 0 0 3px 0 ; 
+    cursor: pointer; 
+}  
+
+@media only screen and (max-width: 1000px) {
+ .postsender{
+     width: 300px;
+     height: 220px;
+ }
+ .post__content{
+    max-width:280px;
+    min-width: 280px;
+    min-height: 80px;
+    max-height: 80px;
+    padding: 0;
+    margin: 20px;
+ }
+ .postsender__infos{
+     width: 300px;
+ }
+}

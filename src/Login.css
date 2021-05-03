@@ -1,0 +1,39 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  width: 600px;
+  height: 80vh;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  color: gray;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.login__button{
+    align-self: center;
+    padding: 10px;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.login__button:hover{
+    transform: scale(1.05);
+}
+
+.nav__sm__title{
+    font-family: 'Poppins', sans-serif;
+    font-size:11px;
+    color: rgb(255, 145, 0);
+}
